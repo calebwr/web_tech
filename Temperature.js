@@ -9,6 +9,6 @@ var temperature = {
 
 var tempToday = 82;
 
-var tempInCelsius = Math.round(temperature.toFahrenheit(tempToday));
+var tempInCelsius = Math.round(temperature.toCelsius(tempToday));
 
 console.log("Today's temperature is " + tempToday + "F, which is " + tempInCelsius + "C.");
